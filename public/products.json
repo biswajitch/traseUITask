@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 25.99,
+    "description": "A sleek, ergonomic wireless mouse with long battery life.",
+    "image": "https://via.placeholder.com/250x150?text=Mouse"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "price": 45.5,
+    "description": "Portable speaker with rich bass and crystal-clear sound.",
+    "image": "https://via.placeholder.com/250x150?text=Speaker"
+  },
+  {
+    "id": 3,
+    "name": "USB-C Hub",
+    "price": 32.0,
+    "description": "Multiport hub for USB, HDMI, and SD card connections.",
+    "image": "https://via.placeholder.com/250x150?text=USB-C+Hub"
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Keyboard",
+    "price": 79.99,
+    "description": "Backlit keyboard with tactile switches for gaming and typing.",
+    "image": "https://via.placeholder.com/250x150?text=Keyboard"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Stand",
+    "price": 21.25,
+    "description": "Aluminum stand to elevate your laptop for better posture.",
+    "image": "https://via.placeholder.com/250x150?text=Laptop+Stand"
+  },
+  {
+    "id": 6,
+    "name": "Webcam",
+    "price": 59.0,
+    "description": "1080p HD webcam with built-in microphone.",
+    "image": "https://via.placeholder.com/250x150?text=Webcam"
+  },
+  {
+    "id": 7,
+    "name": "Smart LED Bulb",
+    "price": 14.75,
+    "description": "WiFi-enabled bulb with RGB color and voice control.",
+    "image": "https://via.placeholder.com/250x150?text=LED+Bulb"
+  },
+  {
+    "id": 8,
+    "name": "Portable SSD",
+    "price": 120.99,
+    "description": "Fast external storage with USB 3.1 support.",
+    "image": "https://via.placeholder.com/250x150?text=Portable+SSD"
+  },
+  {
+    "id": 9,
+    "name": "Noise Cancelling Headphones",
+    "price": 199.99,
+    "description": "Over-ear headphones with active noise cancellation.",
+    "image": "https://via.placeholder.com/250x150?text=Headphones"
+  },
+  {
+    "id": 10,
+    "name": "Fitness Tracker",
+    "price": 49.95,
+    "description": "Track your steps, heart rate, and sleep patterns.",
+    "image": "https://via.placeholder.com/250x150?text=Fitness+Tracker"
+  }
+]
