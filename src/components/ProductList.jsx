@@ -64,13 +64,21 @@ function ProductList() {
         onSortChange={handleSortChange}
       />
       <div className={view === 'card' ? 'product-grid' : 'product-list'}>
-        {filteredProducts.map((product) => (
-          view === 'card' ? (
-            <ProductCardView key={product.id} product={product} />
-          ) : (
-            <ProductListView key={product.id} product={product} />
-          )
-        ))}
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product) => (
+            view === 'card' ? (
+              <ProductCardView key={product.id} product={product} />
+            ) : (
+              <ProductListView key={product.id} product={product} />
+            )
+          ))
+        ) : (
+          <div className="no-products-found">
+            <div className="no-products-icon">🔍</div>
+            <h3>No products found</h3>
+            <p>Try adjusting your search terms or browse all products</p>
+          </div>
+        )}
       </div>
       <ProductFooter
         totalProducts={stats.totalProducts}
